@@ -1,2 +1,1 @@
-pub mod presenter;
-mod model;
+pub mod solution;
