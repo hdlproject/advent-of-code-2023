@@ -1,7 +1,5 @@
 use std::fs::File;
-use std::io::{BufRead, BufReader, ErrorKind};
-use std::error::Error;
-use std::ops::Index;
+use std::io::{BufRead, BufReader};
 
 pub struct Day {
     parts: Vec<Vec<String>>,

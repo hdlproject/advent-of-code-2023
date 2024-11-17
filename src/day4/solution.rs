@@ -1,8 +1,7 @@
-use std::arch::aarch64::int64x1_t;
 use std::collections::HashMap;
 use std::fs::File;
 use std::hash::Hash;
-use std::io::{BufRead, BufReader, Bytes};
+use std::io::{BufRead, BufReader};
 
 pub struct Day {
     winning_numbers: Vec<HashMap<i32, bool>>,

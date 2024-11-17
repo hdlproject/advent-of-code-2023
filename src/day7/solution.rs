@@ -4,7 +4,6 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::hash::Hash;
 use std::io::{BufRead, BufReader};
-use std::iter::Map;
 
 pub struct Day {
     hands: Vec<Hand>,
