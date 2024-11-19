@@ -12,10 +12,7 @@ use day7::solution;
 fn main() {
     let day = solution::Day::new("./src/day7/input.txt");
 
-    let solution = day.solve();
+    let solution = day.solve2();
 
     println!("{}", solution);
-    // 249956000 too low
-    // 250977165 too high
-    // 250254244
 }
