@@ -5,12 +5,13 @@ mod day4;
 mod day5;
 mod day6;
 mod day7;
+mod day8;
 mod day24;
 
-use day7::solution;
+use day8::solution;
 
 fn main() {
-    let day = solution::Day::new("./src/day7/input.txt");
+    let day = solution::Day::new("./src/day8/input.txt");
 
     let solution = day.solve2();
 
